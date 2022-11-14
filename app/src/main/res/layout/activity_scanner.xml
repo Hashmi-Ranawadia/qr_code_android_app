@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <View-->
+<!--        android:id="@+id/overlay"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:alpha="0.56"-->
+<!--        android:background="@drawable/overlay"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+
+
+<!--    <View-->
+<!--        android:id="@+id/chevron_lef"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="10dp"-->
+<!--        android:layout_marginLeft="10dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:background="@drawable/chevron_leff"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--    </RelativeLayout>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/title"-->
+<!--        android:layout_width="44dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginLeft="184dp"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:layout_marginRight="10dp"-->
+<!--        android:gravity="center_horizontal|center_vertical"-->
+<!--        android:lineSpacingExtra="0sp"-->
+<!--        android:text="@string/title"-->
+<!--        android:textAppearance="@style/title"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/chevron_lef"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--    &lt;!&ndash;    </RelativeLayout>&ndash;&gt;-->
+
+
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/frame0"-->
+<!--        android:layout_width="228dp"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@drawable/frame5"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/vectorlt"-->
+<!--        android:layout_width="16dp"-->
+<!--        android:layout_height="16dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@drawable/vectorlt"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/rectangle"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/rectangle"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/vectorrr"-->
+<!--        android:layout_width="16dp"-->
+<!--        android:layout_height="16dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@drawable/vectorrb"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/rectangle"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/rectangle"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/vector3"-->
+<!--        android:layout_width="16dp"-->
+<!--        android:layout_height="16dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@drawable/vectorlb"-->
+<!--        app:layout_constraintBottom_toBottomOf="@+id/rectangle"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/rectangle"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <View-->
+<!--        android:id="@+id/vector6"-->
+<!--        android:layout_width="16dp"-->
+<!--        android:layout_height="14dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@drawable/vectorrr"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/rectangle"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/rectangle"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        android:layout_alignParentStart="true" />-->
+
+<!--    <me.dm7.barcodescanner.zxing.ZXingScannerView-->
+<!--        android:id="@+id/rectangle"-->
+<!--        android:layout_width="228dp"-->
+<!--        android:layout_height="228dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginStart="92dp"-->
+<!--        android:layout_marginLeft="92dp"-->
+<!--        android:layout_marginTop="287dp"-->
+<!--        android:layout_marginEnd="91dp"-->
+<!--        android:layout_marginRight="91dp"-->
+<!--        android:layout_marginBottom="216dp"-->
+<!--        android:background="@drawable/rectangle"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        tools:ignore="MissingConstraints" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/point_the_c"-->
+<!--        android:layout_width="268dp"-->
+<!--        android:layout_height="20dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:lineSpacingExtra="3sp"-->
+<!--        android:text="@string/point_the_c"-->
+<!--        android:textAppearance="@style/point_the_c"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/rectangle"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/rectangle"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/rectangle" />-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/action"-->
+<!--        android:layout_width="188dp"-->
+<!--        android:layout_height="36dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@drawable/action"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/point_the_c"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/point_the_c"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/point_the_c" />-->
+
+<!--    <RelativeLayout-->
+<!--        android:id="@+id/profile"-->
+<!--        android:layout_width="24dp"-->
+<!--        android:layout_height="24dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:background="@drawable/profile"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="@+id/action" />-->
+
+    <TextView
+        android:id="@+id/open_my_cod"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="3sp"
+        android:text="Open my code"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
